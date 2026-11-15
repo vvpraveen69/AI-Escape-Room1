@@ -1,0 +1,10 @@
+1. Install Python 3.10+.
+2. Open a terminal in this AI-Escape-Room folder.
+3. Create and activate a virtual environment.
+4. Run: pip install -r requirements.txt
+5. Copy .env.example to .env and add your Gemini API key.
+6. Run V1: streamlit run version1/app.py
+7. Run V2: streamlit run version2/app.py
+8. Test V2: cd version2 && python -m unittest -v
+9. Add screenshots from your actual app runs to docs/screenshots/.
+10. Read README.md and report/project_report.md before submitting.
